@@ -6,5 +6,7 @@ const allFish = maleFish.concat(femaleFish);
 
 module.exports = {
   all: allFish,
+  allMaleFish: maleFish,
+  allFemaleFish: femaleFish,
   random: uniqueRandomArray(allFish)
 };
