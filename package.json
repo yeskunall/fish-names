@@ -1,0 +1,19 @@
+{
+  "name": "fish-names",
+  "version": "1.0.0",
+  "description": "Get popular fish names",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "random",
+    "fish",
+    "names"
+  ],
+  "author": "Kunall Banerjee <yeskunall96@gmail.com> (https://kimchi.surge.sh/)",
+  "license": "MIT",
+  "dependencies": {
+    "unique-random-array": "1.0.0"
+  }
+}
