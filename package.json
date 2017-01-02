@@ -2,7 +2,7 @@
   "name": "fish-names",
   "version": "1.0.0",
   "description": "Get popular fish names",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +12,10 @@
     "names"
   ],
   "author": "Kunall Banerjee <yeskunall96@gmail.com> (https://kimchi.surge.sh/)",
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/yeskunall/fish-names.git"
+  },
   "license": "MIT",
   "dependencies": {
     "unique-random-array": "1.0.0"
