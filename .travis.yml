@@ -1,7 +1,9 @@
+before_script:
+  - npm i
 language: node_js
-node_js:
-  - "6"
-  - "6.1"
-  - "5.11"
-  - "0.6"
-  - "iojs"
+node:
+  - "node"
+notifications:
+  email: false
+script:
+  - npm run test
