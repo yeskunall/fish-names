@@ -4,8 +4,8 @@ const expect = require('chai').expect;
 const maleFish = require('./male-fish.json');
 const femaleFish = require('./female-fish.json');
 
-describe('fish-names', () => {
-  describe('all', () => {
+describe('fish-names', function() {
+  describe('all', function() {
     it('should be an array of strings', function() {
       expect(fishNames.all).to.satisfy(isArrayOfStrings);
 
@@ -34,13 +34,13 @@ describe('fish-names', () => {
   });
 
   describe('allMaleFish', function() {
-    it('should return a list of all male fish', () => {
+    it('should return a list of all male fish', function() {
       expect(fishNames.allMaleFish).to.not.include(fishNames.allFemaleFish);
     });
   });
 
   describe('allFemaleFish', function() {
-    it('should return a list of all female fish', () => {
+    it('should return a list of all female fish', function() {
       expect(fishNames.allFemaleFish).to.not.include(fishNames.allMaleFish);
     });
   });
