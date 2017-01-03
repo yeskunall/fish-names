@@ -21,7 +21,6 @@ fishNames.random();
 //=> 'Lucy'
 ```
 
-
 ## API
 
 ### .all
@@ -29,6 +28,18 @@ fishNames.random();
 Type: `array`
 
 Lists all 200 popular fish names
+
+### .allMaleFish
+
+Type: `array`
+
+Lists all popular male fish names
+
+### .allFemaleFish
+
+Type: `array`
+
+Lists all popular female fish names
 
 ### .random()
 
