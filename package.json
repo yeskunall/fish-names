@@ -4,7 +4,7 @@
   "description": "Get popular fish names",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/index.test.js -w"
   },
   "keywords": [
     "random",
@@ -13,11 +13,15 @@
   ],
   "author": "Kunall Banerjee <yeskunall96@gmail.com> (https://kimchi.surge.sh/)",
   "repository": {
-  "type": "git",
-  "url": "git+https://github.com/yeskunall/fish-names.git"
+    "type": "git",
+    "url": "git+https://github.com/yeskunall/fish-names.git"
   },
   "license": "MIT",
   "dependencies": {
     "unique-random-array": "1.0.0"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.2.0"
   }
 }
