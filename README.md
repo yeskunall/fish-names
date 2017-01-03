@@ -4,13 +4,11 @@
 
 __Accepting PRs for additional names.__
 
-
 ## Install
 
 ```
 $ npm install --save fish-names
 ```
-
 
 ## Usage
 
@@ -41,8 +39,8 @@ Type: `array`
 
 Lists all popular female fish names
 
-### .random()
+### .random(n: Number)
 
 Type: `function`
 
-Returns a random fish name
+Returns a random fish name, if no param is provided. Otherwise, returns an array of random fish of length `n`
