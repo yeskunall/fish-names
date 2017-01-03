@@ -19,7 +19,7 @@ describe('fish-names', () => {
   });
 
   describe('random', function() {
-    it('should return a random fish name from `fishNames.all`', () => {
+    it('should return a random fish name from `fishNames.all`', function () {
       const randomFish = fishNames.random();
       expect(fishNames.all).to.include(randomFish);
     });
