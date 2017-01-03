@@ -1,10 +1,12 @@
 {
   "name": "fish-names",
-  "version": "1.1.0",
+  "version": "0.0.0-development",
   "description": "Get popular fish names",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha src/index.test.js -w"
+    "commit": "git-cz",
+    "test": "mocha src/index.test.js -w",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "keywords": [
     "random",
@@ -14,7 +16,7 @@
   "author": "Kunall Banerjee <yeskunall96@gmail.com> (https://kimchi.surge.sh/)",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yeskunall/fish-names.git"
+    "url": "https://github.com/yeskunall/fish-names.git"
   },
   "license": "MIT",
   "dependencies": {
@@ -22,6 +24,12 @@
   },
   "devDependencies": {
     "chai": "3.5.0",
-    "mocha": "3.2.0"
+    "commitizen": "2.9.3",
+    "cz-conventional-changelog": "1.2.0",
+    "mocha": "3.2.0",
+    "semantic-release": "^6.3.2"
+  },
+  "czConfig": {
+    "path": "node_modules/cz-conventional-changelog"
   }
 }
