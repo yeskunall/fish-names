@@ -1,4 +1,4 @@
-# fish-names
+# fish-names [![Build Status](https://travis-ci.org/yeskunall/fish-names.svg?branch=master)](https://travis-ci.org/yeskunall/fish-names)
 
 > Get popular fish names 🐟 🐡
 
