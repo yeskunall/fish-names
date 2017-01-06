@@ -69,7 +69,7 @@ describe('fish-names', function() {
     it('should give an array of random female fish if a paramter is passed', function(){
       const randomFemaleFish = fishNames.getFemaleFish(3);
       expect(randomFemaleFish).to.have.length(3);
-      randomFemaleFish.forEach(function(fish){
+      randomFemaleFish.forEach(function(fish) {
         expect(femaleFish).to.include(fish);
       });
     });

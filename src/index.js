@@ -18,9 +18,9 @@ const random = function(n) {
 
 const getMaleFish = function(n){
   if(n === undefined) return randomMaleFish();
-  
+
   const maleFish = [];
-  for(let i=0; i<n; i++){
+  for(var i=0; i<n; i++){
     maleFish.push(randomMaleFish());
   }
   return maleFish;
@@ -28,9 +28,9 @@ const getMaleFish = function(n){
 
 const getFemaleFish = function(n){
   if(n === undefined) return randomFemaleFish();
-  
+
   const femaleFish = [];
-  for(let i=0; i<n; i++){
+  for(var i=0; i<n; i++){
     femaleFish.push(randomFemaleFish());
   }
   return femaleFish;
