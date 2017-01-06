@@ -44,4 +44,30 @@ describe('fish-names', function() {
       expect(fishNames.allFemaleFish).to.not.include(fishNames.allMaleFish);
     });
   });
+
+  describe('getMaleFish', function() {
+    it('should return a random male fish if no paramter is passed', function() {
+      const randomMaleFish = fishNames.getMaleFish();
+      expect(maleFish).to.include(randomMaleFish);
+    });
+
+    it('should give an array of random male fish if a paramter is passed', function(){
+      const randomMaleFish = fishNames.getMaleFish(3);
+      expect(randomMaleFish).to.have.length(3);
+      randomMaleFish.forEach(fish => expect(maleFish).to.include(fish));
+    });
+  });
+  
+    describe('getFemaleFish', function(){
+    it('should return a random female fish if no paramter is passed', function(){
+      const randomFemaleFish = fishNames.getFemaleFish();
+      expect(femaleFish).to.include(randomFemaleFish);
+    });
+
+    it('should give an array of random female fish if a paramter is passed', function(){
+      const randomFemaleFish = fishNames.getFemaleFish(3);
+      expect(randomFemaleFish).to.have.length(3);
+      randomFemaleFish.forEach(fish => expect(femaleFish).to.include(fish));
+    });
+  });
 });
