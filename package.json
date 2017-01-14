@@ -6,13 +6,23 @@
   "scripts": {
     "commit": "git-cz",
     "test": "mocha src/index.test.js -w",
-    "test:single": "istanbul cover -x *.test.js node_modules/mocha/bin/_mocha -- -R spec src/index.test.js",
-    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
+    "test:single": "istanbul cover -x *.test.js node_modules/mocha/bin/_mocha -- -R spec src/index.test.js"
   },
   "keywords": [
     "random",
     "fish",
-    "names"
+    "names",
+    "superb",
+    "awesome",
+    "word",
+    "words",
+    "list",
+    "array",
+    "rand",
+    "animal",
+    "name",
+    "female",
+    "male"
   ],
   "author": "Kunall Banerjee <yeskunall96@gmail.com> (https://kimchi.surge.sh/)",
   "repository": {
@@ -28,8 +38,7 @@
     "commitizen": "2.9.3",
     "cz-conventional-changelog": "1.2.0",
     "istanbul": "0.4.5",
-    "mocha": "3.2.0",
-    "semantic-release": "^6.3.2"
+    "mocha": "3.2.0"
   },
   "czConfig": {
     "path": "node_modules/cz-conventional-changelog"
