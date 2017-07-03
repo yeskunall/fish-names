@@ -1,0 +1,6 @@
+# disable JSHint
+jshint:
+  enabled: false
+# use ESLint instead
+eslint:
+  enabled: true
