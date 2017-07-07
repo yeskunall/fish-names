@@ -52,3 +52,16 @@ Lists all popular female fish names
 Type: `function`
 
 Returns a random fish name, if no param is provided. Otherwise, returns an array of random fish of length `n`
+
+### .getMaleFish(n: Number)
+
+Type: `function`
+
+Returns a random male fish name, if no param is provided. Otherwise, returns an array of random male fish of length `n`
+
+### .getFemaleFish(n: Number)
+
+Type: `function`
+
+Returns a random female fish name, if no param is provided. Otherwise, returns an array of random female fish of length `n`
+
