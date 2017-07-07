@@ -12,7 +12,3 @@ notifications:
   email: false
 before_script:
   - npm prune
-script:
-  - npm run test:single
-after_success:
-  - npm run semantic-release
