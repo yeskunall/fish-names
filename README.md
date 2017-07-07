@@ -1,4 +1,12 @@
-# fish-names [![Build Status](https://travis-ci.org/yeskunall/fish-names.svg?branch=master)](https://travis-ci.org/yeskunall/fish-names) [![npm](https://img.shields.io/npm/dt/fish-names.svg)](http://npm.im/fish-names) [![Codecov](https://img.shields.io/codecov/c/github/yeskunall/fish-names.svg)]()
+<h1 align="center">
+	<br>
+	<img width="400" src="media/fishy.png" alt="fishy">
+	<br>
+	<br>
+	<br>
+</h1>
+
+[![Build Status](https://travis-ci.org/yeskunall/fish-names.svg?branch=master)](https://travis-ci.org/yeskunall/fish-names) [![npm](https://img.shields.io/npm/dt/fish-names.svg)](http://npm.im/fish-names)
 
 > Get popular fish names 🐟 🐡
 
