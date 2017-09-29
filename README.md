@@ -6,7 +6,7 @@
 	<br>
 </h1>
 
-[![Build Status](https://travis-ci.org/yeskunall/fish-names.svg?branch=master)](https://travis-ci.org/yeskunall/fish-names) [![npm](https://img.shields.io/npm/dt/fish-names.svg)](http://npm.im/fish-names)
+[![Build Status](https://travis-ci.org/yeskunall/fish-names.svg?branch=master)](https://travis-ci.org/yeskunall/fish-names) [![npm](https://img.shields.io/npm/dt/fish-names.svg)](http://npm.im/fish-names) [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 > Get popular fish names 🐟 🐡
 
