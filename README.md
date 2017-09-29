@@ -1,6 +1,6 @@
 <h1 align="center">
 	<br>
-	<img width="400" src="media/fishy.png" alt="fishy">
+	<img src="media/usage-screenshot.png" alt="usage-screenshot">
 	<br>
 	<br>
 	<br>
